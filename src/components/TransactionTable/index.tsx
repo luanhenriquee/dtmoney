@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { api } from "../../services/api";
 import { Container } from "./styles";
 
@@ -18,6 +18,7 @@ export function TransactionTable() {
             <th>Data</th>
           </tr>
         </thead>
+        
 
         <tbody>
           <tr>
